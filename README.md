@@ -26,6 +26,11 @@ examples showcasing in what context to use different functions.
 
 - https://clojuredocs.org/
 
+If you are using VSCode like in the Devcontainer configuration below, it's a
+good idea to get familiar with the VSCode extension Calva.
+
+- https://calva.io/getting-started/
+
 ## Devcontainer
 
 For ease of use, developers can start working in pre-built ready made
