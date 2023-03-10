@@ -1,0 +1,23 @@
+{
+  "name": "Ubuntu",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "ubuntu-22.04"
+    }
+  },
+  "postCreateCommand": ".devcontainer/post-create-command.sh",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "betterthantomorrow.calva"
+      ],
+      "settings": {
+        "calva.showCalvaSaysOnStart": false,
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}
